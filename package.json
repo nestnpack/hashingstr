@@ -1,0 +1,22 @@
+{
+  "name": "hashstr",
+  "version": "1.0.0",
+  "description": "tester",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestpackages/hashstr.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Haidar Ahmad Faiq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nestpackages/hashstr/issues"
+  },
+  "homepage": "https://github.com/nestpackages/hashstr#readme"
+}

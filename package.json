@@ -1,17 +1,21 @@
 {
   "name": "hashstr",
   "version": "1.0.0",
-  "description": "tester",
+  "description": "Hashing strings and comparing hashes with various algorithms is simple and easy",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nestpackages/hashstr.git"
   },
   "keywords": [
-    "test"
+    "hash",
+    "hashing",
+    "encrypt",
+    "decrypt",
+    "algorithm"
   ],
   "author": "Haidar Ahmad Faiq",
   "license": "MIT",

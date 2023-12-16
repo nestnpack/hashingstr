@@ -1,6 +1,9 @@
 {
   "name": "hashstr",
   "version": "1.0.0",
+  "engines": {
+    "node": ">= 10.0.0"
+  },
   "description": "Hashing strings and comparing hashes with various algorithms is simple and easy",
   "main": "index.js",
   "scripts": {

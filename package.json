@@ -4,7 +4,7 @@
   "engines": {
     "node": ">= 10.0.0"
   },
-  "description": "Hashing strings and comparing hashes with various algorithms is simple and easy",
+  "description": "Hashing strings and compare string hashes with various algorithms is simple and easy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +16,8 @@
   "keywords": [
     "hash",
     "hashing",
-    "encrypt",
-    "decrypt",
+    "string",
+    "crypto",
     "algorithm"
   ],
   "author": "Haidar Ahmad Faiq",

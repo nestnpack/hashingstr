@@ -5,34 +5,34 @@ An npm package that can hashing strings and compare string hashes with various a
 ## Installation
 Install with npm
 ```console
-npm install hashstr
+npm install hashingstr
 ```
 
 After installing, do the import
 
 With require
 ```javascript
-const hashstr = require('hashstr');
+const hashingstr = require('hashingstr');
 ```
 
 ## Usage
 
-function hash `hashstr.hash(type algorithm, value)`
+function hash `hashingstr.hash(type algorithm, value)`
 
-function compare `hashstr.compare(type algorithm, value, hashedValue)`
+function compare `hashingstr.compare(type algorithm, value, hashedValue)`
 
 ### Example to use function hash
 ```javascript
-hashstr.hash('md5', 'test');
+hashingstr.hash('md5', 'test');
 //result: 098f6bcd4621d373cade4e832627b4f6
 ```
 
 ### Example to use function compare
 ```javascript
-hashstr.compare('md5', 'test', '098f6bcd4621d373cade4e832627b4f6');
+hashingstr.compare('md5', 'test', '098f6bcd4621d373cade4e832627b4f6');
 //result: true
 
-hashstr.compare('md5', 'tester', '098f6bcd4621d373cade4e832627b4f6');
+hashingstr.compare('md5', 'tester', '098f6bcd4621d373cade4e832627b4f6');
 //result: false
 ```
 

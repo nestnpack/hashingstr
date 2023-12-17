@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Miscellaneous
+*.tmp
+*.bak
+*.backup
+*.old
+*.orig
+*.test
+*.cache
+*.temp
+*.tmp
+*.log
+*.swp
+._*

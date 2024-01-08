@@ -3,6 +3,7 @@
 An npm package that can hashing strings and compare string hashes with various algorithms is simple and easy
 
 ## Installation
+
 Install with npm
 ```console
 npm install hashingstr

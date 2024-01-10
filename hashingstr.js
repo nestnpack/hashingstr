@@ -2,11 +2,13 @@
 MIT License
 Copyright (c) 2024 Nest Packages
 
- ---------- Hashingstr V1.1.0 ---------- 
+ ---------- Hashingstr V1.2.0 ---------- 
 */
 
 const hashingstr = (function() {
   const encoder = new TextEncoder();
+  
+  //library hash
   const h = {
     md5: () => {
       return 'algorithm (md5) not support in crypto browser';
@@ -73,10 +75,97 @@ const hashingstr = (function() {
     }
   }
   
+  
+  //library compare
   const c = {
-    
+    md5: (value, hashedValue) => {
+      const result = h.md5(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sha1: (value, hashedValue) => {
+      const result = h.sha1(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sha2_224: (value, hashedValue) => {
+      const result = h.sha2_224(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sha2_256: (value, hashedValue) => {
+      const result = h.sha2_256(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sha2_384: (value, hashedValue) => {
+      const result = h.sha2_384(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sha2_512: (value, hashedValue) => {
+      const result = h.sha2_512(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sha3_224: (value, hashedValue) => {
+      const result = h.sha3_224(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sha3_256: (value, hashedValue) => {
+      const result = h.sha3_256(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sha3_384: (value, hashedValue) => {
+      const result = h.sha3_384(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sha3_512: (value, hashedValue) => {
+      const result = h.sha3_512(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    whirlpool: (value, hashedValue) => {
+      const result = h.whirlpool(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    ripemd160: (value, hashedValue) => {
+      const result = h.ripemd160(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    shake128: (value, hashedValue) => {
+      const result = h.shake128(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    shake256: (value, hashedValue) => {
+      const result = h.shake256(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    sm3: (value, hashedValue) => {
+      const result = h.sm3(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    blake2b512: (value, hashedValue) => {
+      const result = h.blake2b512(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    },
+    blake2s256: (value, hashedValue) => {
+      const result = h.blake2s256(value);
+      if(result.search('algorithm') >= 0) return result;
+      return result === hashedValue;
+    }
   }
   
+  //function hash
   function hash(type, value) {
     // Check if type is undefined
     if(typeof type === 'undefined') {
@@ -172,6 +261,7 @@ const hashingstr = (function() {
     }
   }
   
+  //function compare
   function compare(type, value, hashedValue) {
     // Check if type is undefined
     if(typeof type === 'undefined') {
@@ -266,6 +356,8 @@ const hashingstr = (function() {
       }
     }
   }
+  
+  //export
   const hashingstr = {
     hash,
     compare

@@ -3,14 +3,12 @@
 An npm package that can hashing strings and compare string hashes with various algorithms is simple and easy
 
 ## Installation
-
 Install with npm
 ```console
 npm install hashingstr
 ```
 
-After installing, do the import
-
+## Import
 With require
 ```javascript
 const hashingstr = require('hashingstr');
@@ -19,7 +17,6 @@ const hashingstr = require('hashingstr');
 It is recommended to use the latest version of node or node version 10.0.0 and above because there are several crypto algorithms that do not support node version 10.0.0 and below
 
 ## Usage
-
 function hash `hashingstr.hash(type algorithm, value)`
 
 function compare `hashingstr.compare(type algorithm, value, hashedValue)`

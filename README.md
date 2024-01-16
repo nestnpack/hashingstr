@@ -8,26 +8,14 @@ Install with npm
 npm install hashingstr
 ```
 
-or connect with CDN
-```text
-https://www.unpkg.com/hashingstr@latest/hashingstr.js
-```
-
 ## Import
 With require
 ```javascript
 const hashingstr = require('hashingstr');
 ```
 
-Connect with CDN
-```html
-<script src="https://www.unpkg.com/gerandchars@latest/gerandchars.js"></script>
-```
-
 ## Warning
 It is recommended to use the latest version of node or node version 10.0.0 and above because there are several crypto algorithms that do not support node version 10.0.0 and below
-
-if you choose to use CDN. There are several drawbacks, perhaps most of the algorithms are not supported in the browser version of crypto
 
 ## Usage
 function hash `hashingstr.hash(type algorithm, value)`

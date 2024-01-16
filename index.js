@@ -2,7 +2,7 @@
 MIT License
 Copyright (c) 2024 Nest Packages
 
- ---------- Hashingstr V1.2.0 ---------- 
+ ---------- Hashingstr V1.1.1 ---------- 
 */
 
 const hash = require('./lib/hash.js');

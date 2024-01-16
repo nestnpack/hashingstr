@@ -5,6 +5,8 @@ Copyright (c) 2024 Nest Packages
  ---------- Hashingstr V1.2.0 ---------- 
 */
 
+'use strict';
+
 const hashingstr = (function() {
   const encoder = new TextEncoder();
   

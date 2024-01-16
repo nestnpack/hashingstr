@@ -2,7 +2,7 @@
 MIT License
 Copyright (c) 2024 Nest Packages
 
- ---------- Hashingstr V1.2.0 ---------- 
+ ---------- Hashingstr V1.1.1 ---------- 
 */
 
 'use strict';
@@ -193,7 +193,6 @@ const hashingstr = (function() {
       if(type === 'md5') {
         return h.md5(value);
       }
-      
       //sha module
       if(type === 'sha1') {
         return h.sha1(value);
@@ -295,16 +294,16 @@ const hashingstr = (function() {
         return c.sha1(value, hashedValue);
       }
       if(type === 'sha2-224') {
-        return c.sha2_224(value);
+        return c.sha2_224(value, hashedValue);
       }
       if(type === 'sha2-256') {
-        return c.sha2_256(value);
+        return c.sha2_256(value, hashedValue);
       }
       if(type === 'sha2-384') {
-        return c.sha2_384(value);
+        return c.sha2_384(value, hashedValue);
       }
       if(type === 'sha2-512') {
-        return c.sha2_512(value);
+        return c.sha2_512(value, hashedValue);
       }
       if(type === 'sha3-224') {
         return c.sha3_224(value, hashedValue);
@@ -331,25 +330,25 @@ const hashingstr = (function() {
       
       //shake module
       if(type === 'shake128') {
-        return c.shake128(value);
+        return c.shake128(value, hashedValue);
       }
       
       if(type === 'shake256') {
-        return shake256(value);
+        return shake256(value, hashedValue);
       }
       
       //sm3 module
       if(type === 'sm3') {
-        return c.sm3(value);
+        return c.sm3(value, hashedValue);
       }
       
       //blake module
       if(type === 'blake2b512') {
-        return c.blake2b512(value);
+        return c.blake2b512(value, hashedValue);
       }
       
       if(type === 'blake2s256') {
-        return c.blake2s256(value);
+        return c.blake2s256(value, hashedValue);
       }
       
       //If type not found

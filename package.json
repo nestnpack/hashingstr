@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nestpackages/hashingstr.git"
+    "url": "git+https://github.com/nestnpack/hashingstr.git"
   },
   "keywords": [
     "hash",
@@ -23,7 +23,7 @@
   "author": "Haidar Ahmad Faiq",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nestpackages/hashingstr/issues"
+    "url": "https://github.com/nestnpack/hashingstr/issues"
   },
-  "homepage": "https://github.com/nestpackages/hashingstr#readme"
+  "homepage": "https://github.com/nestnpack/hashingstr#readme"
 }

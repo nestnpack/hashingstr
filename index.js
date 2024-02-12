@@ -1,5 +1,5 @@
 /*!
----------- hashingstr V1.1.3 ---------- 
+---------- hashingstr V1.2.2 ---------- 
  * MIT License
  * Copyright (c) 2023 - 2024 Nest NPack
  */

@@ -38,22 +38,25 @@ hashingstr.compare('md5', 'tester', '098f6bcd4621d373cade4e832627b4f6');
 ```
 
 ## List of supported algorithms
-| Name       | Added in version |
-| :--------  | :--------------- |
-| md5        | 1.0.0            |
-| sha1       | 1.0.0            |
-| sha2-224   | 1.0.0            |
-| sha2-256   | 1.0.0            |
-| sha2-384   | 1.0.0            |
-| sha2-512   | 1.0.0            |
-| sha3-224   | 1.0.0            |
-| sha3-256   | 1.0.0            |
-| sha3-384   | 1.0.0            |
-| sha3-512   | 1.0.0            |
-| whirlpool  | 1.0.0            |
-| ripemd160  | 1.0.0            |
-| shake128   | 1.1.0            |
-| shake256   | 1.1.0            |
-| sm3        | 1.1.0            |
-| blake2b512 | 1.1.0            |
-| blake2s256 | 1.1.0            |
+| Name       | Added in Hashingstr version |
+| :--------  | :------------------------- |
+| md4        | 1.2.2                      |
+| md5        | 1.0.0                      |
+| mdc2       | 1.2.2                      |
+| sha1       | 1.0.0                      |
+| sha2-224   | 1.0.0                      |
+| sha2-256   | 1.0.0                      |
+| sha2-384   | 1.0.0                      |
+| sha2-512   | 1.0.0                      |
+| sha3-224   | 1.0.0                      |
+| sha3-256   | 1.0.0                      |
+| sha3-384   | 1.0.0                      |
+| sha3-512   | 1.0.0                      |
+| whirlpool  | 1.0.0                      |
+| ripemd     | 1.2.2                      |
+| ripemd160  | 1.0.0                      |
+| shake128   | 1.1.0                      |
+| shake256   | 1.1.0                      |
+| sm3        | 1.1.0                      |
+| blake2b512 | 1.1.0                      |
+| blake2s256 | 1.1.0                      |

@@ -15,7 +15,7 @@ const hashingstr = require('hashingstr');
 ```
 
 ## Warning
-It is recommended to use the latest version of node or node version 10.0.0 and above because there are several crypto algorithms that do not support node version 10.0.0 and below
+It is recommended to use the latest version of node or node version 12.0.0 and above because there are several crypto algorithms that do not support node version 10.0.0 and below
 
 ## Usage
 function hash `hashingstr.hash(type algorithm, value)`

@@ -2,7 +2,7 @@
   "name": "hashingstr",
   "version": "1.2.2",
   "engines": {
-    "node": ">= 10.0.0"
+    "node": ">= 12.0.0"
   },
   "description": "Hashing strings and compare string hashes with various algorithms is simple and easy",
   "main": "index.js",
